@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dario's Super Sweet Website</title>
+        <style>
+            body {
+                background: rgb( 35, 98, 105);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                front-family: arial;
+            }
+            header {
+                front-size: 1.5em;
+                front-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+            nav {
+                background: rgb(449, 180, 100);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border-radius: 50px ;
+            }
+            nav header{
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+               list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img{
+                width: 200px;
+            }
+            [class=content] img{
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id= "all contents">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class = "Sidebar">
+                    <img src = "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/30124413_10100933357800485_7471857886482661376_n.jpg?_nc_cat=0&oh=e3ea709954c191e45d85ce5338ad52e3&oe=5BE9CFF6" height = "300" width = "300">
+                </div>
+                <div class = "content">
+                    <header>Dario El-Badry</header>
+                    <p>Tour Guide at Nola Brew Bus and Flambeaux Walking Tours</p>
+                    <section class = "interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Mountains</li>
+                            <li>Fish Sauce</li>
+                            <li>Percussion</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
